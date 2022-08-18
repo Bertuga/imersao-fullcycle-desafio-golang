@@ -3,7 +3,7 @@ package bank
 import uuid "github.com/satori/go.uuid"
 
 type Account struct {
-	ID      string  `json:"-"`
+	ID      string  `json:"id"`
 	Number  string  `json:"account_number"`
 	Balance float64 `json:"-"`
 }
